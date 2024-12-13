@@ -1,4 +1,4 @@
 FROM openjdk:23-jdk-slim
 VOLUME /tmp
-COPY target/gateway_service-0.0.1-SNAPSHOT.jar app.jar
+COPY target/gateway-service-1.0-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java", "-jar", "/app.jar"]
